@@ -1,4 +1,4 @@
-## Pollard's Kangaroo for SECP256K1
+## Pollard's Kangaroo for SECP256K1 (for MACOS)
 
 The original source code of this software can be found at https://github.com/giladleef/kangaroo.
 
