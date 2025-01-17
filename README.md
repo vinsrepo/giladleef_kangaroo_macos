@@ -79,5 +79,8 @@ make gpu=1 ccap=<integer> all
 ```
 
 **Donation:**
+
 BTC: bc1q254e8zztza95mlmuvs7ypz70cv9jcf3e4gl4le
+
 Thank you!
+
