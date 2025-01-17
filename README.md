@@ -2,11 +2,13 @@
 
 The original source code of this software can be found at https://github.com/giladleef/kangaroo.
 
-I forked it and applies some minor changes so that it can compile and run well on MacOS. (I tested with MacOS 10.15+)
+I forked it and applied some minor changes so that it can compile and run well on MacOS. (I tested with MacOS 10.15+)
 
-If you found it's useful for your works, please consider to buy me a cup of coffee:
-BTC: bc1q254e8zztza95mlmuvs7ypz70cv9jcf3e4gl4le
-Thank you!
+**If you found it's useful for your works, please consider to buy me a cup of coffee:**
+
+**BTC Wallet: bc1q254e8zztza95mlmuvs7ypz70cv9jcf3e4gl4le**
+
+**Thank you!**
 
 This program offers a powerful solution for tackling the Elliptic Curve Discrete Logarithm Problem (ECDLP) within the context of SECP256K1. Here's a detailed overview of the features and functionality of this solver:
 ### Features
