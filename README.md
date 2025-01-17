@@ -1,6 +1,12 @@
 ## Pollard's Kangaroo for SECP256K1
 
-The source code of this software can be found at https://github.com/giladleef/kangaroo.
+The original source code of this software can be found at https://github.com/giladleef/kangaroo.
+
+I forked it and applies some minor changes so that it can compile and run well on MacOS. (I tested with MacOS 10.15+)
+
+If you found it's useful for your works, please consider to buy me a cup of coffee:
+BTC: bc1q254e8zztza95mlmuvs7ypz70cv9jcf3e4gl4le
+Thank you!
 
 This program offers a powerful solution for tackling the Elliptic Curve Discrete Logarithm Problem (ECDLP) within the context of SECP256K1. Here's a detailed overview of the features and functionality of this solver:
 ### Features
@@ -55,24 +61,19 @@ The distinguished point (DP) method offers an efficient approach for storing ran
 Work files can be saved periodically using various options (-w, -wi, -ws). When restarting a work, the -i option can be used, and work files can be merged offline. Work files are compatible and can be merged if they have the same key and range. The -wss option enables using the server to make kangaroo backups, facilitating work continuity across different configurations or hardware setups.
 
 
-### Compile on Ubuntu 24.04 x86_64 Machine
+### Compile on MacOS 10.15+ x86_64 Machine
 
 ```
-# Install a CUDA driver
-sudo apt-get install -y nvidia-open
 
-# Install Nvidia CUDA Toolkit
-
-wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-keyring_1.1-1_all.deb
-sudo dpkg -i cuda-keyring_1.1-1_all.deb
-sudo apt-get update
-sudo apt-get -y install cuda-toolkit-12-6
-
-# Install g++ and make
-sudo apt-get install make g++
+# Install g++ and make (if not available yet)
+brew install make g++
 
 # Compile CPU-ONLY version
 make
 
-# Compile with GPU support:
+# Compile with GPU support: (Assumed that you already installed nvidia cuda-toolkit)
 make gpu=1 ccap=<integer> all
+
+Donation:
+BTC: bc1q254e8zztza95mlmuvs7ypz70cv9jcf3e4gl4le
+Thank you!
