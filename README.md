@@ -76,6 +76,8 @@ make
 # Compile with GPU support: (Assumed that you already installed nvidia cuda-toolkit)
 make gpu=1 ccap=<integer> all
 
-Donation:
+```
+
+**Donation:**
 BTC: bc1q254e8zztza95mlmuvs7ypz70cv9jcf3e4gl4le
 Thank you!
